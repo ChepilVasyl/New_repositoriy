@@ -6,9 +6,9 @@ int Square_area(int a, int b)
 {
     return a * b;
 }
-int Volume_cube(int a, int b,int c)
+int Kub_chisla(int a)
 {
-    return a * b * c;
+    return a * a * a;
 }
 int main()
 {
@@ -20,14 +20,10 @@ int main()
     cout << "¬вед≥ть сторону б" << endl;
     cin >> b;
     cout << "ѕроща квадрата = "<< Square_area(a,b) << endl;
-    cout << "¬вед≥ть сторони куба дл€ визначенн€ його об'Їму" << endl;
-    cout << "¬вед≥ть сторону а" << endl;
+    cout << "¬вед≥ть число дл€ визначенн€ його куба" << endl;
+    cout << "¬вед≥ть число" << endl;
     cin >> a;
-    cout << "¬вед≥ть сторону б" << endl;
-    cin >> b;
-    cout << "¬вед≥ть сторону c" << endl;
-    cin >> c;
-    cout << "ќб'Їм куба = " << Volume_cube(a, b, c) << endl;
+    cout << " уб числа = " << Kub_chisla(a) << endl;
 
     return 0;
 }
