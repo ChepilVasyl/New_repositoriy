@@ -19,6 +19,7 @@ int main()
     cout << "¬вед≥ть число" << endl;
     cin >> a;
     cout << " уб числа = " << Kub_chisla(a) << endl;
+    cout << "ѕерев≥рка комм≥ту" << endl;
 
     return 0;
 }
