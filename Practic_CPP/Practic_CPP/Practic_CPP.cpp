@@ -6,7 +6,10 @@ int Kvadrat_chisla(int a)
 {
     return a * a;
 }
-
+int Kub_chisla(int a)
+{
+    return a*a*a;
+}
 int main()
 {
     SetConsoleCP(1251);
@@ -14,7 +17,8 @@ int main()
     int digit;
     cout << "Введіть число" << endl;
     cin >> digit;
-    cout << "Результат піднесення числа до степіня 2 = " << Kvadrat_chisla(digit);
+    cout << "Результат піднесення числа до степіня 2 = " << Kvadrat_chisla(digit)<<endl;
+    cout << "Результат піднесення числа до степіня 2 = " << Kub_chisla(digit) << endl;
 
     return 0;
 }
