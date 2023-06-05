@@ -10,6 +10,10 @@ int Kub_chisla(int a)
 {
     return a*a*a;
 }
+void Greeting()
+{
+    cout << "Перший мердж буде" << endl;
+}
 int main()
 {
     SetConsoleCP(1251);
