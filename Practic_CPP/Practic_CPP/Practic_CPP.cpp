@@ -2,24 +2,19 @@
 #include <windows.h>
 #include <string>
 using namespace std;
-int Square_area(int a, int b)
+int Kvadrat_chisla(int a)
 {
-    return a * b;
+    return a * a;
 }
-int Kub_chisla(int a)
-{
-    return a * a * a;
-}
+
 int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    int a;
-    cout << "Введіть число для визначення його куба" << endl;
+    int digit;
     cout << "Введіть число" << endl;
-    cin >> a;
-    cout << "Куб числа = " << Kub_chisla(a) << endl;
-    cout << "Перевірка комміту" << endl;
+    cin >> digit;
+    cout << "Результат піднесення числа до степіня 2 = " << Kvadrat_chisla(digit);
 
     return 0;
 }
